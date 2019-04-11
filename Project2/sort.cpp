@@ -63,11 +63,15 @@ int main(void){
         if(j== length && i == first_len -1){
             Array2[k++] = Array1[i++];
         } 
+        if(j== length-1 && i == first_len ){
+            Array2[k++] = Array1[j++];
+        } 
     }
     cout << "Validiation Array" << endl;
     for(int i=0;i<Array2.size();i++){
         cout << Array2[i] << endl;
     }
+    
     
     return 0;
 }
