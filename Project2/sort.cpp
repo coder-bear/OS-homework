@@ -71,7 +71,5 @@ int main(void){
     for(int i=0;i<Array2.size();i++){
         cout << Array2[i] << endl;
     }
-    
-    
     return 0;
 }
