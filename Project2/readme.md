@@ -43,7 +43,7 @@ The main process checks the validation array to identify which part is error.
 Array1 is the inital array, Array2 is the result array.    
 ##### b. parameters
 Struct, which contains the array start_index and length.    
-The start_index refers to the sorting sub-array start index ,which is the index referred to the initial array. This parameter is used for the ***sort()** method. The **sort()** method needs a start index and a end index. Thus, to obtain the end index, the length attribution use the calculate the end index, which is start_index + length. 
+The start_index refers to the sorting sub-array start index ,which is the index referred to the initial array. This parameter is used for the **sort()** method. The **sort()** method needs a start index and a end index. Thus, to obtain the end index, the length attribution use the calculate the end index, which is start_index + length. 
 #### (2) Function
 ##### a.void* sort_array(void* para);
 According to the para, extract the start_index and the length to create the start_index and the end_index. Based on these two parameters, sort this specific part in Array1.
