@@ -60,10 +60,10 @@ int main(void){
         else{
             Array2[k++] = Array1[j++];
         }
-        if(j== length && i == first_len -1){
+        if(j== length && i < first_len){
             Array2[k++] = Array1[i++];
         } 
-        if(j== length-1 && i == first_len ){
+        if(j<length && i == first_len ){
             Array2[k++] = Array1[j++];
         } 
     }
