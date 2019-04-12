@@ -51,10 +51,26 @@ According to the para, extract the start_index and the length to create the star
 We create two threads to sort two half parts in indivually. Once two threads finished the its functions, the Array1 is totally sorted. 
 ## III. Snapshots 
 ### 1. Sudoku result
-#### (1) Row error
-![avatar](/home/yzy/图片/sudoku.png)
+#### (1) Right Sudoku validation
+The correct sudoku is as follows.
+![Right Sudoku](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/sudoku3.png)
 
+The result is:
+![Right Sudoku Result](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/sudoku_right.png)
 
+#### (2) Error test
+We modify the sudoku. We changed the first element at the 6th row, which change 7 to 6. 
+![Error Sudoku](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/column_error.png)
+
+The error detection result is as follows:
+![Sudoku error detection](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/col_error_res.png)
+
+### 2. Sort result
+The sort array is as follows:
+![Unsorted array](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/test_array.png)
+
+The sorted array result is as follows:
+![Sorted array](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/sort_res.png)
 
 ## IV. Problems encoutered and solutions
 ### 1. Sudoku problem
