@@ -64,6 +64,7 @@ We modify the sudoku. We changed the first element at the 6th row, which change 
 ![Error Sudoku](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/column_error.png)
 
 The error detection result is as follows:
+
 ![Sudoku error detection](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/col_error_res.png)
 
 ### 2. Sort result
