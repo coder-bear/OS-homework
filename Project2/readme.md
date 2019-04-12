@@ -53,6 +53,7 @@ We create two threads to sort two half parts in indivually. Once two threads fin
 ### 1. Sudoku result
 #### (1) Right Sudoku validation
 The correct sudoku is as follows.
+
 ![Right Sudoku](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/sudoku3.png)
 
 The result is:
@@ -67,9 +68,11 @@ The error detection result is as follows:
 
 ### 2. Sort result
 The sort array is as follows:
+
 ![Unsorted array](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/test_array.png)
 
 The sorted array result is as follows:
+
 ![Sorted array](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project2/picture/sort_res.png)
 
 ## IV. Problems encoutered and solutions
