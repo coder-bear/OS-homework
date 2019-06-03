@@ -23,4 +23,4 @@ The text file can be relative path or the absoulte path.
 See the previous <b>How to use</b>
 
 #### c. Flowchart
-![流程图]()
+![流程图](https://raw.githubusercontent.com/coder-bear/OS-homework/master/Project5/img/flow_chart.png)
